@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: rgb(11, 47, 148);
+    background-color: rgb(171, 228, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    text-align: left;
+    background-color: rgb(117, 117, 243);
+    justify-content: right;
+}
+
+
+nav a {
+    color: rgb(137, 238, 112);
+    text-decoration: none;
+    padding: 20px;
+  
+}
+
+nav a:hover {
+    color: rgb(238, 157, 234);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /*yeh li ko right me kar dega */
+}
+
+nav ul li {
+    text-align: right; /* yeh bhi li ko right me kar dega */
+   
+}
+header img {
+    width: 70%;
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: inline-block;
+}
+
+
+.div1 ol li{
+    margin-left: 30px;
+    padding-right: 50px;
+}
+.div1 a{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid rgb(240, 121, 121);
+}
+h1 {
+    color: rgb(202, 49, 195);
+    text-decoration: underline;
+}
+
+iframe.center-iframe {
+    display: block;
+    margin: 0 auto;
+
+
+
+}
+iframe{
+    border: 2px solid rgb(167, 44, 156);
+    box-shadow: 10px 10px 10px black;
+}
+span {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.social-icons {
+    font-size: 24px;
+    color: rgb(61, 106, 190);
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: rgb(194, 88, 171); /* Change the color on hover */
+  }
